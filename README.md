@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="Logo" width="120" height="120">
+  <img src="logo.png" alt="Logo" width="120" height="120" style="border-radius: 24px;">
   <h1>App-Download</h1>
   <p>iFunBox App 下載頁面</p>
   <p>iFunBox App Download Page</p>
