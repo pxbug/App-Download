@@ -54,9 +54,11 @@ git clone https://github.com/pxbug/App-Download.git
 4. 選擇 `pxbug/App-Download` 倉庫
 5. 配置設置：
    - **Framework preset**: `None` (靜態網站)
-   - **Build command**: 留空
-   - **Build output directory**: 留空（因為是純靜態文件）
+   - **Build command**: 填入 `:` 或留空
+   - **Build output directory**: 填入 `./` 或留空
 6. 點擊 **Deploy**
+
+> ⚠️ **重要**：如果部署失敗，請檢查專案設置中的 **Build command**，確保設置為 `:` 或留空，而不是 `npx wrangler deploy`。
 
 ### 方法二：手動上傳
 
@@ -70,9 +72,16 @@ git clone https://github.com/pxbug/App-Download.git
 
 部署完成後，可以在 **Custom domains** 中添加自定義域名。
 
-### 部署狀態
+### 常見問題 / FAQ
 
-[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button.svg)](https://deploy.pages.cloudflare.com/?owner=pxbug&repo=App-Download)
+**Q: 部署失敗，出現 `Missing entry-point to Worker script` 錯誤？**
+A: 這是因為 Build command 設置不正確。請在 Cloudflare Pages 專案設置中：
+1. 前往 **Settings** → **Build & deployments**
+2. 將 **Build command** 改為 `:` 或留空
+3. 重新觸發部署
+
+**Q: 部署後頁面顯示 404？**
+A: 請確保 **Build output directory** 設置為 `./` 或留空。
 
 ## 自定義 / Customization
 
