@@ -9,6 +9,12 @@
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
     <img src="https://img.shields.io/badge/MIT-License-blue?style=for-the-badge" alt="MIT License">
   </p>
+
+  ### 🔗 在線預覽 / Live Preview
+
+  **[https://app-download.clozhi.workers.dev](https://app-download.clozhi.workers.dev)**
+
+  ---
 </div>
 
 ## 簡介
@@ -38,10 +44,10 @@ A beautiful iOS app download page built with HTML5 + CSS3, featuring:
 git clone https://github.com/pxbug/App-Download.git
 ```
 
-1. 直接在瀏覽器中打開 `indeex.html` 文件
+1. 直接在瀏覽器中打開 `index.html` 文件
 2. 或部署到任何靜態網頁託管服務
 
-1. Open `indeex.html` directly in your browser
+1. Open `index.html` directly in your browser
 2. Or deploy to any static web hosting service
 
 ## Cloudflare Pages 部署 / Deploy to Cloudflare Pages
@@ -85,11 +91,11 @@ A: 請確保 **Build output directory** 設置為 `./` 或留空。
 
 ## 自定義 / Customization
 
-- 修改 `indeex.html` 中的應用名稱和鏈接
+- 修改 `index.html` 中的應用名稱和鏈接
 - 替換 `logo.png` 為你的應用圖標
 - 調整 CSS 樣式自定義顏色和效果
 
-- Modify app name and links in `indeex.html`
+- Modify app name and links in `index.html`
 - Replace `logo.png` with your app icon
 - Adjust CSS styles to customize colors and effects
 
