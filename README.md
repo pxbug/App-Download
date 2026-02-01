@@ -44,6 +44,36 @@ git clone https://github.com/pxbug/App-Download.git
 1. Open `indeex.html` directly in your browser
 2. Or deploy to any static web hosting service
 
+## Cloudflare Pages 部署 / Deploy to Cloudflare Pages
+
+### 方法一：連接 GitHub 倉庫（推薦）
+
+1. 登入 [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. 進入 **Workers & Pages** → **Create** → **Pages**
+3. 選擇 **Connect to Git**，連接你的 GitHub 帳號
+4. 選擇 `pxbug/App-Download` 倉庫
+5. 配置設置：
+   - **Framework preset**: `None` (靜態網站)
+   - **Build command**: 留空
+   - **Build output directory**: 留空（因為是純靜態文件）
+6. 點擊 **Deploy**
+
+### 方法二：手動上傳
+
+1. 進入 [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. 進入 **Workers & Pages** → **Create** → **Pages**
+3. 選擇 **Upload assets**
+4. 將項目文件打包上傳
+5. 完成部署
+
+### 自定義域名
+
+部署完成後，可以在 **Custom domains** 中添加自定義域名。
+
+### 部署狀態
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button.svg)](https://deploy.workers.cloudflare.com/?url=https://github.com/pxbug/App-Download)
+
 ## 自定義 / Customization
 
 - 修改 `indeex.html` 中的應用名稱和鏈接

@@ -1,0 +1,21 @@
+{
+  "name": "App-Download",
+  "version": "1.0.0",
+  "description": "iFunBox App Download Page",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build required for static site'"
+  },
+  "keywords": [
+    "ios",
+    "app",
+    "download",
+    "static-site",
+    "cloudflare-pages"
+  ],
+  "author": "pxbug",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
