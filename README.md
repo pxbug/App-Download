@@ -1,28 +1,65 @@
-# App-Download
+<div align="center">
+  <img src="logo.png" alt="Logo" width="120" height="120">
+  <h1>App-Download</h1>
+  <p>iFunBox App 下載頁面</p>
+  <p>iFunBox App Download Page</p>
 
-iFunBox App 下载页面
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/MIT-License-blue?style=for-the-badge" alt="MIT License">
+  </p>
+</div>
 
-## 简介
+## 簡介
 
-这是一个精美的 iOS 应用下载页面，使用 HTML5 + CSS3 构建，包含以下特性：
+這是一個精美的 iOS 應用下載頁面，使用 HTML5 + CSS3 構建，包含以下特性：
 
-- 🎨 现代简约的深色主题设计
-- ✨ 蓝色发光效果和呼吸动画
-- 📱 响应式布局，适配移动端
-- 🚀 平滑的页面载入动画
-- 🔗 社交链接（GitHub、Telegram）
+- 🎨 現代簡約的深色主題設計
+- ✨ 藍色發光效果和呼吸動畫
+- 📱 響應式佈局，適配移動端
+- 🚀 平滑的頁面載入動畫
+- 🔗 社交鏈接（GitHub、Telegram）
 
-## 使用方法
+## Introduction
 
-1. 直接在浏览器中打开 `indeex.html` 文件
-2. 或部署到任何静态网页托管服务
+A beautiful iOS app download page built with HTML5 + CSS3, featuring:
 
-## 自定义
+- 🎨 Modern dark theme design
+- ✨ Blue glow effects with breathing animations
+- 📱 Responsive layout for mobile devices
+- 🚀 Smooth page load animations
+- 🔗 Social links (GitHub, Telegram)
 
-- 修改 `indeex.html` 中的应用名称和链接
-- 替换 `logo.png` 为你的应用图标
-- 调整 CSS 样式自定义颜色和效果
+## 使用方法 / Usage
 
-## 许可证
+```bash
+# Clone the repository
+git clone https://github.com/pxbug/App-Download.git
+```
 
-MIT License
+1. 直接在瀏覽器中打開 `indeex.html` 文件
+2. 或部署到任何靜態網頁託管服務
+
+1. Open `indeex.html` directly in your browser
+2. Or deploy to any static web hosting service
+
+## 自定義 / Customization
+
+- 修改 `indeex.html` 中的應用名稱和鏈接
+- 替換 `logo.png` 為你的應用圖標
+- 調整 CSS 樣式自定義顏色和效果
+
+- Modify app name and links in `indeex.html`
+- Replace `logo.png` with your app icon
+- Adjust CSS styles to customize colors and effects
+
+## 許可證 / License
+
+[MIT License](LICENSE)
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/pxbug">pxbug</a>
+</p>
