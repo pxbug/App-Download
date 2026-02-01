@@ -4,7 +4,7 @@
   "description": "iFunBox App Download Page",
   "scripts": {
     "dev": "npx serve .",
-    "build": "echo 'No build required for static site'"
+    "build": "echo 'Static site - no build required'"
   },
   "keywords": [
     "ios",

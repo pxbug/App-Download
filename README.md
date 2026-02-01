@@ -72,7 +72,7 @@ git clone https://github.com/pxbug/App-Download.git
 
 ### 部署狀態
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button.svg)](https://deploy.workers.cloudflare.com/?url=https://github.com/pxbug/App-Download)
+[![Deploy to Cloudflare Pages](https://deploy.workers.cloudflare.com/button.svg)](https://deploy.pages.cloudflare.com/?owner=pxbug&repo=App-Download)
 
 ## 自定義 / Customization
 
