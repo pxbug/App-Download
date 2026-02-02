@@ -37,6 +37,14 @@ A beautiful iOS app download page built with HTML5 + CSS3, featuring:
 - 🚀 Smooth page load animations
 - 🔗 Social links (GitHub, Telegram)
 
+## 截圖預覽 / Screenshots
+
+<div align="center">
+  <img src="01.png" alt="Screenshot 1" width="200">
+  <img src="02.png" alt="Screenshot 2" width="200">
+  <img src="03.png" alt="Screenshot 3" width="200">
+</div>
+
 ## 使用方法 / Usage
 
 ```bash
